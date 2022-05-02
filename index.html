@@ -16,6 +16,10 @@
 </head>
 <body>
     <header class="header_container">
+      <picture>
+        <source media="(min-width: 720px)" srcset="./assets/images/bg-hero-desktop.svg">
+        <img class="background" src="./assets/images/bg-hero-mobile.svg" alt="Background image">
+      </picture>
       <nav class="navbar_container">
         <img src="./assets/images/logo.svg" alt="Logo">
         <button>Try It Free</button>
@@ -35,20 +39,73 @@
 
     <main class="main_container">
       <section class="value_container">
-        <article class="value_card">
-          <img src="./assets/images/illustration-grow-together.svg" alt="">
-          <h2>Grow Together</h2>
-          <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        <article class="value_card value_card--grow">
+          <img src="./assets/images/illustration-grow-together.svg" alt="Ilustration of grow together">
+          <div>
+            <h2>Grow Together</h2>
+            <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+          </div>
+          
+          
         </article>
-        <article class="value_card">
+        <article class="value_card value_card--flowing">
+          <img src="./assets/images/illustration-flowing-conversation.svg" alt="Ilustration of flowing conversations">
+          <div>
+            <h2>Flowing Conversations</h2>
+            <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+          </div>
+          
 
+          
         </article>
-        <article class="value_card">
-
+        <article class="value_card value_card--users">
+          <img src="./assets/images/illustration-your-users.svg" alt="Ilustration of your users">
+          <div>
+            <h2>Your Users</h2>
+            <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting inmediately.</p>
+          </div>
+          
         </article>
       </section>
 
     </main>
 
+    <footer class="footer_container">
+      <div class="footer_button">
+        <h3>Ready To Build Your Community?</h3>
+        <button>Get Started For Free</button>
+      </div>
+      
+      <section class="footer_content">
+        <div class="footer_info">
+          <ul>
+            <li><img class="footer_logo" src="./assets/images/logo-footer.svg" alt="Logo"></li>
+            <li><img class="footer_icons location"src="./assets/icons/icon-location.svg" alt="Icon of location"><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a></li>
+            <li><img class="footer_icons"src="./assets/icons/icon-phone.svg" alt="Icon of a phone"><a href="">+1-543-123-4567</a></li>
+            <li><img class="footer_icons"src="./assets/icons/icon-email.svg" alt="Icon of email"><a href="">example@fylo.com</a></li>
+            
+          </ul>
+        </div>
+        <div class="footer_links">
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">What We Do</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer_logos">
+          <div>
+            <a href=""><img src="./assets/icons/logo-facebook.svg" alt="Logo of Facebook"></a>
+            <a href=""><img src="./assets/icons/logo-twitter.svg" alt="Logo of Twitter"></a>
+            <a href=""><img src="./assets/icons/logo-instagram.svg" alt="Logo of Instagram"></a>
+            
+          </div>
+          <p>© Copyright 2018 Huddle. All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
 </body>
 </html>
