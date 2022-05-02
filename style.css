@@ -93,10 +93,10 @@ html{
 }
 .header_info p{
     font-family: 'Open sans', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.759rem;
     line-height: 2.5rem;
-    color: 0x032027;
+    color: #032027;
 }
 .header_info button{
     width: 250px;

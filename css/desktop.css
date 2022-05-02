@@ -24,6 +24,11 @@
     font-size: 3.2rem;
 }
 
+.header_info button{    
+    margin-right: 250px;
+
+}
+
 .header_content img{
     padding-top: 10px;
     width: 100%;
@@ -75,5 +80,80 @@
 }
 
 @media (min-width: 1000px) {
-    
+    .header_info{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 59%;
+    }
+
+    .header_info h1{
+        font-size: 3.7rem;
+    } 
+    .header_info p{
+        font-size: 1.7rem;
+    }
+    .value_card{
+        padding: 70px 0;
+    }
+
+    .value_card img{
+        max-width: 420px;
+        height: 300px;
+    }
+
+    .value_card h2{
+        font-size: 2.5rem;
+    }
+
+    .value_card div{
+        width: 58%;
+    }
+
+    .value_card p{
+        font-size: 1.9rem;
+        line-height: 2.6rem;
+    }
+
+    .footer_button{
+        top: -140px;
+        left: calc(50% - 310px);
+        width: 620px;
+        height: 210px;
+    }
+    .footer_button h3{
+        font-size: 2.3rem;
+    }
+    .footer_button button{
+        width: 290px;
+        height: 60px;
+        font-size: 1.3rem;
+    }
+
+    .footer_content{
+        flex-direction: row;
+        gap: 50px;
+        height: 630px;
+    }
+    .footer_info ul{
+        height: 300px;
+    }
+    .footer_logo{
+        width: 220px;
+        height: 35px;
+    }
+
+    .footer_links{
+        width: 300px;
+        height: auto;
+    }
+    .footer_links ul{
+        
+        gap: 20px;
+        
+    }
+
+    .footer_logos div{
+        height: 100px;
+        justify-content: space-between;
+    }
 }
