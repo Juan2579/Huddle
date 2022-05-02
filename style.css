@@ -168,12 +168,11 @@ html{
     font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    letter-spacing: -0.05rem;
     color: var(--Very-Dark-Cyan);
 }
 
 .value_card p{
-    width: 79.99%;
+    width: 80%;
     font-size: 1.415rem;
     line-height: 2.1rem;
     font-weight: 400;
