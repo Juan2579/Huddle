@@ -132,7 +132,7 @@
     .footer_content{
         flex-direction: row;
         gap: 50px;
-        height: 630px;
+        height: 450px;
     }
     .footer_info ul{
         height: 300px;
@@ -141,19 +141,34 @@
         width: 220px;
         height: 35px;
     }
-
-    .footer_links{
-        width: 300px;
-        height: auto;
-    }
     .footer_links ul{
-        
-        gap: 20px;
-        
+        display: grid;
+        grid-template-columns: repeat(2,minmax(100px, 150px));
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas: 
+        "About-us Career"
+        "What-we-do Blog"
+        "FAQ Contact-us"      
+        ;
+        gap: 10px; 
+    }
+    .footer_links li:nth-child(1){
+        grid-area: About-us;
+    }
+    .footer_links li:nth-child(2){
+        grid-area: What-we-do;
+    }
+    .footer_links li:nth-child(3){
+        grid-area: FAQ;
     }
 
     .footer_logos div{
         height: 100px;
         justify-content: space-between;
+    }
+
+    .footer_logos{
+        text-align: start;
+        margin: 60px 0 40px 0;
     }
 }
